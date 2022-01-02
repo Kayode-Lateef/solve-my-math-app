@@ -1,0 +1,31 @@
+ <!-- ======= Breadcrumbs ======= -->
+ <div class="breadcrumbs" data-aos="fade-in">
+  <div class="container">
+    <h2>{{about.headline}}</h2>
+    <p>{{about.paragraph}}</p>
+  </div>
+</div><!-- End Breadcrumbs -->
+
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+  <div class="container" data-aos="fade-up">
+
+    <div class="row">
+      <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+        <img src="assets/img/{{about.image}}" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+        <h3>{{about.headingContent}}</h3>
+        <p class="fst-italic">{{about.paragraphContent}}</p>
+        <ul>
+          <li *ngFor="let list of about.lists"><i class="bi bi-check-{{list.icon}}"></i>{{list.listtext}}</li> 
+        </ul>
+        <p>{{about.paragraphSubContent}}</p>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End About Section -->
+<app-why-us></app-why-us>
+<app-features></app-features>
+<app-footer></app-footer>

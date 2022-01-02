@@ -1,0 +1,36 @@
+<!-- ======= Breadcrumbs ======= -->
+<div class="breadcrumbs">
+  <div class="container">
+    <h2>{{trainers.headline}}</h2>
+    <p>{{trainers.paragraph}}</p>
+  </div>
+</div><!-- End Breadcrumbs -->
+
+<!-- ======= Trainers Section ======= -->
+<section id="trainers" class="trainers">
+  <div class="container" data-aos="fade-up">
+
+  <div class="row" data-aos="zoom-in" data-aos-delay="100">
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch" *ngFor="let tutor of trainers.tutors">
+        <div class="member">
+          <img src="assets/img/trainers/{{tutor.image}}" class="img-fluid" alt="">
+          <div class="member-content">
+            <h4>{{tutor.name}}</h4>
+            <span>{{tutor.details}}</span>
+            <p>{{tutor.paragraph}}</p>
+            <div class="social">
+              <a href=""><i class="bi {{tutor.icon1}}"></i></a>
+              <a href=""><i class="bi {{tutor.icon2}}"></i></a>
+              <a href=""><i class="bi {{tutor.icon3}}"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+    </div>
+
+  </div>
+</section><!-- End Trainers Section -->
+  <app-footer></app-footer>
