@@ -2,7 +2,6 @@
 (function() {
   "use strict";
 
-    // alert("hello");
   /**
    * Easy selector helper function
    */
