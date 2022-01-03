@@ -269,7 +269,8 @@ body {
     color: #37423b;
     font-size: 28px;
     cursor: pointer;
-    display: none;
+    /* display: none; */
+    display: block;
     line-height: 0;
     transition: 0.5s;
   }
