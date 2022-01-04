@@ -1,6 +1,7 @@
 
-(function myJs ()  {
+ window.initMethod = (function ()  {
   "use strict";
+  
   alert("test");
   /**
    * Easy selector helper function

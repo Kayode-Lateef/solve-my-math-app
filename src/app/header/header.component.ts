@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import '/src/assets/js/main.js';
+declare let initMethod: any;
 
 @Component({
   selector: 'app-header',
@@ -13,5 +13,6 @@ export class HeaderComponent implements OnInit {
 
 
   ngOnInit(): void {
+    initMethod();
   }
 }
