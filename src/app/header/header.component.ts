@@ -11,7 +11,7 @@ export class HeaderComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.loadScript('../assets/js/main=.js');
+    this.loadScript('../assets/js/main.js');
   }
 
   public loadScript(url: string) {
