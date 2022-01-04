@@ -242,7 +242,7 @@ export const configuration = {
         ],
         newsletter : 'Join Our Newsletter',
         subscribe : 'Get all the latest Offers. Sign up for newsletter today.',
-        copyright : ' &copy; Copyright ',
+        copyright : ' © Copyright ',
         copyrightText: 'All Rights Reserved',
         credit : 'Designed by ',
         creditLink : 'https://kaytechit.herokuapp.com/',
