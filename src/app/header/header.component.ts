@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import {myFunction} from '../assets/js/main.js';
+import {myFunction} from '..src/assets/js/main.js';
 
 declare const myFunction: any;
 
