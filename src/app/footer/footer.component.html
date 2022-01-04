@@ -29,13 +29,13 @@
             </ul>
           </div>
   
-          <div class="col-lg-4 col-md-6 footer-newsletter">
+          <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>{{footer.newsletter}}</h4>
             <p>{{footer.subscribe}}</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
-          </div>
+          </div> -->
   
         </div>
       </div>
@@ -53,8 +53,6 @@
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
         <a *ngFor="let footerLink of footer.footerLinks" href="{{footerLink.pathLink}}" class="twitter"><i class="bx {{footerLink.linkIcon}}"></i></a>
-        <!-- <a href="https://github.com/Kayode-Lateef" class="github"><i class="bx bxl-github"></i></a>
-        <a href="https://www.linkedin.com/in/kayode-o-90993987/" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
       </div>
     </div>
   </footer><!-- End Footer -->
