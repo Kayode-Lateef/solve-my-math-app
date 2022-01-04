@@ -321,7 +321,9 @@ body {
   .navbar-mobile a:focus {
     padding: 10px 20px;
     font-size: 15px;
-    color: #37423b;
+    /* color: #37423b; */
+    color: #fff;
+
   }
   .navbar-mobile a:hover,
   .navbar-mobile .active,
