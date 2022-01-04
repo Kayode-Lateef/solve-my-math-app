@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-declare var myJs: any;
-
 import '/src/assets/js/main.js';
 
 @Component({
@@ -15,6 +13,5 @@ export class HeaderComponent implements OnInit {
 
 
   ngOnInit(): void {
-    myJs ();
   }
 }
