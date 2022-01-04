@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -12,7 +11,7 @@ export class HeaderComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.loadScript('../assets/js/main.js');
+    this.loadScript('../assets/js/main=.js');
   }
 
   public loadScript(url: string) {
