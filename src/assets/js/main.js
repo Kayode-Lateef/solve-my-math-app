@@ -1,4 +1,4 @@
-exports.myFunction = function ()  {
+(function ()  {
   "use strict";
   
   alert("test");
@@ -121,4 +121,4 @@ exports.myFunction = function ()  {
     })
   });
 
-}
+})()

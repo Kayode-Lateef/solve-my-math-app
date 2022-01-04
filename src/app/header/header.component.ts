@@ -1,9 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-import {myFunction} from '..src/assets/js/main.js';
-
-declare const myFunction: any;
-
 
 @Component({
   selector: 'app-header',
@@ -12,13 +8,20 @@ declare const myFunction: any;
 })
 export class HeaderComponent implements OnInit {
 
-  test() {
-    myFunction();
-  }
-
   constructor() { }
 
 
   ngOnInit(): void {
+    this.loadScript('../assets/js/main.js');
+  }
+
+  public loadScript(url: string) {
+    const body = <HTMLDivElement> document.body;
+    const script = document.createElement('script');
+    script.innerHTML = '';
+    script.src = url;
+    script.async = false;
+    script.defer = true;
+    body.appendChild(script);
   }
 }
