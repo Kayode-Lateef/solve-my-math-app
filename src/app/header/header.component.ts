@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
-import {myFunction} from '../assets/js/custom.js';
+import {myFunction} from '../assets/js/main.js';
+
+declare const myFunction: any;
+
 
 @Component({
   selector: 'app-header',
