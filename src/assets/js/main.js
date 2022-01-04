@@ -1,7 +1,7 @@
 
 (function myJs ()  {
   "use strict";
-
+  alert("test");
   /**
    * Easy selector helper function
    */
