@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-declare let initMethod: any;
+import {myFunction} from '../assets/js/custom.js';
 
 @Component({
   selector: 'app-header',
@@ -9,10 +9,13 @@ declare let initMethod: any;
 })
 export class HeaderComponent implements OnInit {
 
+  test() {
+    myFunction();
+  }
+
   constructor() { }
 
 
   ngOnInit(): void {
-    initMethod();
   }
 }

@@ -1,5 +1,4 @@
-
- window.initMethod = (function ()  {
+exports.myFunction = function ()  {
   "use strict";
   
   alert("test");
@@ -122,4 +121,4 @@
     })
   });
 
-})()
+}
