@@ -1,5 +1,5 @@
 
-(function() {
+(function myJs ()  {
   "use strict";
 
   /**
