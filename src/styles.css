@@ -312,7 +312,8 @@ body {
     left: 15px;
     padding: 10px 0;
     border-radius: 6px;
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: transparent;
     overflow-y: auto;
     transition: 0.3s;
   }
